@@ -11,10 +11,6 @@ export default {
   data () {
     return {
       tenantEmails: [
-        '373382617@qq.com',
-        'zhugino@gmail.com',
-        'jim.zhan@me.com',
-        'jim@funbox.me'
       ],
       startTime: new Date(2018, 5, 22),
       endTime: new Date(),

@@ -11,9 +11,6 @@ export default {
   data () {
     return {
       tenantEmails: [
-        '373382617@qq.com',
-        'zhugino@gmail.com',
-        'epam.propertymanagement@gmail.com'
       ]
     }
   },
