@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^0.18.0",
+    "deep-get-set": "^1.1.0",
+    "fastify": "^1.6.0",
+    "googleapis": "^32.0.0",
+    "html2plaintext": "^2.0.1",
+    "mongodb": "^3.0.10",
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "hackathon-project",
+  "main": "./src/app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
