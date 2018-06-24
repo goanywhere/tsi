@@ -1,0 +1,118 @@
+$logo-size: 80px;
+.logo {
+  width: $logo-size;
+  height: $logo-size;
+  margin-left: 15px;
+}
+.logo101 {
+  @extend .logo;
+  background: url('../assets/logo101.svg') no-repeat no-repeat center;
+}
+.logo102 {
+  @extend .logo;
+  background: url('../assets/logo102.svg') no-repeat no-repeat center;
+}
+.logo103 {
+  @extend .logo;
+  background: url('../assets/logo103.svg') no-repeat no-repeat center;
+}
+.logo104 {
+  @extend .logo;
+  background: url('../assets/logo104.svg') no-repeat no-repeat center;
+}
+  .logo201 {
+  @extend .logo;
+  background: url('../assets/logo201.svg') no-repeat no-repeat center;
+}
+.logo202 {
+  @extend .logo;
+  background: url('../assets/logo202.svg') no-repeat no-repeat center;
+}
+.logo203 {
+  @extend .logo;
+  background: url('../assets/logo203.svg') no-repeat no-repeat center;
+}
+.logo204 {
+  @extend .logo;
+  background: url('../assets/logo204.svg') no-repeat no-repeat center;
+}
+.logo301 {
+  @extend .logo;
+  background: url('../assets/logo301.svg') no-repeat no-repeat center;
+}
+.logo302 {
+  @extend .logo;
+  background: url('../assets/logo302.svg') no-repeat no-repeat center;
+}
+.logo303 {
+  @extend .logo;
+  background: url('../assets/logo303.svg') no-repeat no-repeat center;
+}
+.logo304 {
+  @extend .logo;
+  background: url('../assets/logo304.svg') no-repeat no-repeat center;
+}
+$scale-number: 1.3;
+.inside-logo {
+  position: relative;
+  flex: 1;
+  &:hover {
+    transform: scale($scale-number);
+  }
+}
+.logo302.inside-logo {
+  top: -45px;
+  right: -34px;
+  &:hover {
+    transform: scale($scale-number);
+  }
+}
+.logo303.inside-logo {
+  top: 52px;
+  right: 35px;
+  &:hover {
+    transform: scale($scale-number);
+  }
+}
+
+.logo-shark {
+  animation: shark 1s 1s infinite;
+}
+
+@keyframes shark {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.avatar.Jim {
+  background: url('../assets/profile/1.svg') center no-repeat
+}
+.avatar.Kitty {
+  background: url('../assets/profile/2.svg') center no-repeat
+}
+.avatar.Oliver {
+  background: url('../assets/profile/3.svg') center no-repeat
+}
+.avatar.Jake {
+  background: url('../assets/profile/4.svg') center no-repeat
+}
+.avatar.Noah {
+  background: url('../assets/profile/5.svg') center no-repeat
+}
+  
